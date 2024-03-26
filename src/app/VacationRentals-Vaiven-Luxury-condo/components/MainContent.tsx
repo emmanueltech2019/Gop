@@ -116,7 +116,7 @@ export default function MainContent() {
           <div className=' pt-10 pb-6 px-6 w-full flex justify-center bg-[#f0efe9] rounded-2xl'>
             <div className="w-full max-w-[380px] flex flex-col gap-8">
               <div>
-                <Link href='/' children={<Card />} className='w-full block' />
+                <Link href='/'  className='w-full block' ><Card /></Link>
               </div>
 
               <div className='flex flex-col gap-4'>
@@ -129,7 +129,7 @@ export default function MainContent() {
                   I am James, an avid traveler.
                   A bit about…
                   I am a Medical Development Executive and a blessed father of 2 beautiful, kind, intelligent, strong & smart girls.
-                  'Every Stranger - is - Your Teacher'
+                  &apos;Every Stranger - is - Your Teacher&apos;
                   ciao
                 </p>
                 {/* possible button */}
