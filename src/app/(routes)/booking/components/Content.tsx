@@ -38,7 +38,7 @@ export default function Content() {
 
                     <div className='py-8 border-t border-[rgba(34,34,34,.15)]'>
                         <h1 className='font-medium text-[22px] mb-4'>Message The Host</h1>
-                        <p className='text-[14px] font-light mb-3'>Share why you're traveling, who's coming with you, and what you love about the space.</p>
+                        <p className='text-[14px] font-light mb-3'>Share why you&apos;re traveling, who&apos;s coming with you, and what you love about the space.</p>
                         <div className='flex pb-6'>
                             <div className="col flex items-center">
                                 <div className="image w-10 h-10 overflow-hidden rounded-full">
