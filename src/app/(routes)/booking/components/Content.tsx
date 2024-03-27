@@ -56,7 +56,17 @@ export default function Content() {
                     </div>
 
                     <div className='py-8 border-t border-[rgba(34,34,34,.15)]'>
-                        
+                        <h1 className='pb-6 font-medium text-[22px]'>Cancellation Policy</h1>
+                        <p>This reservation is non-refundable. <button className='font-medium text-base underline'>Learn More</button></p>
+                    </div>
+
+                    <div className='py-8 border-t border-[rgba(34,34,34,.15)]'>
+                        <h1 className='pb-6 font-medium text-[22px]'>Ground rules</h1>
+                        <p>We ask every guest to remember a few simple things about what makes a great guest.</p>
+                        <ul>
+                            <li>Follow the House rules</li>
+                            <li>Treat your Host&apos;s home like your own</li>
+                        </ul>
                     </div>
                 </div>
 
