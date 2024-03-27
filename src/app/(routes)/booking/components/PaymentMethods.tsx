@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function PaymentMethods() {
   return (
-    <div><div className="row border border-[rgb(221,221,221)] rounded-xl">
-    <div className="row-1 flex justify-between px-6 items-center border-b border-[rgb(221,221,221)]">
+    <div><div className="row md:border md:border-[rgb(221,221,221)] rounded-xl">
+    <div className="row-1 flex justify-between md:px-6 items-center md:border-b md:border-[rgb(221,221,221)]">
         <div className="col flex items-center gap-4">
             <div className="icon">
                 <FontAwesomeIcon icon={faCreditCard} className='w-8 text-[rgb(176,176,176)]' />
@@ -17,7 +17,7 @@ export default function PaymentMethods() {
         </div>
     </div>
 
-    <div className="row-2 flex justify-between px-6 items-center border-b border-[rgb(221,221,221)]">
+    <div className="row-2 flex justify-between md:px-6 items-center md:mborder-b md:border-[rgb(221,221,221)]">
         <div className="col flex items-center gap-4">
             <div className="icon">
                 <FontAwesomeIcon icon={faCreditCard} className='w-8 text-[rgb(176,176,176)]' />
@@ -29,7 +29,7 @@ export default function PaymentMethods() {
         </div>
     </div>
 
-    <div className="row-3 flex justify-between px-6 items-center">
+    <div className="row-3 flex justify-between md:px-6 items-center">
         <div className="col flex items-center gap-4">
             <div className="icon">
                 <FontAwesomeIcon icon={faCreditCard} className='w-8 text-[rgb(176,176,176)]' />

@@ -1,4 +1,6 @@
 import PaymentMethods from './PaymentMethods'
+import jamesImg from '@/assets/james-img.jpg'
+import Image from 'next/image'
 
 export default function Content() {
     return (
@@ -35,8 +37,26 @@ export default function Content() {
                     <div className='pt-8 mt-8 border-t border-[rgba(34,34,34,.15)]'></div>
 
                     <div className='py-8 border-t border-[rgba(34,34,34,.15)]'>
-                        <h1 className='font-medium text-[22px]'>Message The Host</h1>
-                        <p className='text-[14px] font-light'>Share why you're traveling, who's coming with you, and what you love about the space.</p>
+                        <h1 className='font-medium text-[22px] mb-4'>Message The Host</h1>
+                        <p className='text-[14px] font-light mb-3'>Share why you're traveling, who's coming with you, and what you love about the space.</p>
+                        <div className='flex pb-6'>
+                            <div className="col flex items-center">
+                                <div className="image w-10 h-10 overflow-hidden rounded-full">
+                                    <Image src={jamesImg} alt="James Image" className='w-full h-full object-cover' />
+                                </div>
+                            </div>
+                            <div className="col ml-4">
+                                <h3 className='text-base font-semibold'>James</h3>
+                                <div className='font-light'>Joined in 2016</div>
+                            </div>
+                        </div>
+                        <div className="message">
+                            <textarea name="Message-box" rows={5} className='w-full h-full p-2 resize text-base border hover:border-2 border-[rgb(34,34,34)] rounded-lg outline-none bg-white'></textarea>
+                        </div>
+                    </div>
+
+                    <div className='py-8 border-t border-[rgba(34,34,34,.15)]'>
+                        
                     </div>
                 </div>
 
