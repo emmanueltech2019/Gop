@@ -1,5 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/(routes)/VacationRentals-Vaiven-Luxury-condo/page": "app/(routes)/VacationRentals-Vaiven-Luxury-condo/page.js",
   "/(routes)/booking/page": "app/(routes)/booking/page.js"
 }

@@ -1,4 +1,4 @@
-// File: /Users/macbookpro/Downloads/gop-site-main/src/app/layout.tsx
+// File: C:\Users\user\Documents\Gop\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

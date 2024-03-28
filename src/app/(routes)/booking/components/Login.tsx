@@ -1,4 +1,4 @@
-import React from 'react'
+
 import YourTrip from './shared/YourTrip'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -51,7 +51,7 @@ export default function Login() {
 
 
          </div>
-         <div className="col flex-1">
+         <div className="col flex-1 relative">
             <Card />
          </div>
       </div>

@@ -1,4 +1,4 @@
-// File: /Users/macbookpro/Downloads/gop-site-main/src/app/(routes)/booking/page.tsx
+// File: C:\Users\user\Documents\Gop\src\app\(routes)\booking\page.tsx
 import * as entry from '../../../../../src/app/(routes)/booking/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

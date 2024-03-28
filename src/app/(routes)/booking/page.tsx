@@ -1,5 +1,6 @@
 import Content from "./components/Content";
 import Header from "./components/Header";
+import Login from "./components/Login";
 
 export default function page() {
   return (
@@ -8,7 +9,8 @@ export default function page() {
             <Header />
         </header>
         <main className="container px-6 md:px-10 custom-lg:px-20 mx-auto text-[#222]">
-            <Content />
+            {/* <Content /> */}
+            <Login />
         </main>
     </div>
   )

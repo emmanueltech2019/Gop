@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Header() {
   return (
     <div>
-      <div className='pb-8 pt-[64px] flex items-center'>
+      <div className='py-4 md:pb-8 md:pt-[64px] flex items-center'>
         <div className='pb-4 mr-[34px]'>
           <button><FontAwesomeIcon icon={faChevronLeft} className='w-3 font-extralight' /></button>
         </div>
