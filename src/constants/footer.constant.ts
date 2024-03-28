@@ -30,7 +30,7 @@ export const footerConstant:footerConstantType = [
       title: 'Hoisting',
       links: [
          {
-            title: 'Airbnb Yojur Home',
+            title: 'Goplayacar Yojur Home',
             path: '/'
          },
          {
@@ -44,7 +44,7 @@ export const footerConstant:footerConstantType = [
       ]
    },
    {
-      title: 'Airbnb',
+      title: 'Goplayacar',
       links: [
          {
             title: 'Newsroom',

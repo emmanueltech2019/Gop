@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import twoBedRoom from '@/assets/rental-images/room-two-beds.webp'
 
-export default function ard() {
+export default function Card() {
   return (
-    <div className='sticky top-10 left-0 md:ml-4 mb-8 lg:ml-[80px] md:p-6 rounded-xl md:border border-[rgb(221,221,221)]'>
+    <div className='sticky top-10 left-0 md:ml-4 mb-8 lg:ml-[80px] p-6 rounded-xl md:border border-[rgb(221,221,221)]'>
       <div className="row pb-6 flex items-center gap-4 border-b border-[rgba(34,34,34,.15)]">
         <div className="row-image min-w-[104px] max-w-[104px] h-[98px] overflow-hidden rounded-xl">
           <Image src={twoBedRoom} className='h-[98px] object-cover' alt='' />
@@ -28,7 +28,7 @@ export default function ard() {
         </div>
 
         <div className='flex justify-between gap-4'>
-          <span className="text-base underline">Airbnb service fee</span>
+          <span className="text-base underline">Goplayacar service fee</span>
           <span className="text-base">$39.53</span>
         </div>
 

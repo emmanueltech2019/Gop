@@ -33,7 +33,7 @@ export default function Footer() {
       <div className="row flex flex-col-reverse lg:flex-row justify-between py-6">
         <div className="col py-1">
           <div className='copyright text-[#222] text-sm flex flex-col lg:flex-row gap-[9.5px] items-start md:items-center'>
-            <span>© 2024 Airbnb, Inc.</span>
+            <span>© 2024 Goplayacar, Inc.</span>
             <span className='hidden lg:block w-[1.5px] h-[1.5px] bg-[#222]'></span>
             <div className='flex flex-col md:flex-row gap-[9.5px]'>
               <div className='flex items-center gap-[9.5px]'>

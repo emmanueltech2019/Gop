@@ -142,7 +142,7 @@ export default function MainContent() {
                   <Image src={starIcon} alt='image' className='w-6 object-cover' />
                 </div>
                 <div className="col">
-                  <p className="text-xs font-normal">To protect your payment, never transfer money or communicate outside of the Airbnb website or app.</p>
+                  <p className="text-xs font-normal">To protect your payment, never transfer money or communicate outside of the Goplayacar website or app.</p>
                 </div>
               </div>
             </div>
